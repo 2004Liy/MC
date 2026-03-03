@@ -444,7 +444,7 @@ void MyOpenGL::drawTerrain()
     glActiveTexture(GL_TEXTURE2);
     treetexture[2]->bind();
     treeshader.setUniformValue("leaf", 2);
-
+//Frustum
     for(auto &it:chunkmap){
         if(it->visible){
             it->drawtree();
