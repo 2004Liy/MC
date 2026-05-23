@@ -590,9 +590,9 @@ public:
 
 
 private:
-    unsigned int VAO,VBO,instanceVBO;
-    unsigned int treeVAO,treeVBO,treeinstanceVBO;
-    unsigned int flowerVAO,flowerVBO,flowerinstanceVBO;
+    unsigned int VAO=0,VBO=0,instanceVBO=0;
+    unsigned int treeVAO=0,treeVBO=0,treeinstanceVBO=0;
+    unsigned int flowerVAO=0,flowerVBO=0,flowerinstanceVBO=0;
     QList<InstanceData>instanceData;
     QVector<QVector3D>waterinstanceData;
     QVector<QVector3D>pos;
